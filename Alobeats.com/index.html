@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>alolas</title>
+  <link rel="stylesheet" href="style.css?v=13">
+</head>
+<body>
+
+
+<img class="bg-image" src="alobeats.bg.jpeg" alt="Background Artwork">
+<div class="bg-overlay"></div>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <a href="#hero" class="nav-logo">ALOLAS</a>
+    <ul class="nav-links">
+      <li><a href="#beats">Beats</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#pricing">Pricing</a></li>
+    </ul>
+  </nav>
+
+  
+<header class="producer-hero" id="hero">
+  <div class="hero-container">
+    <div class="hero-avatar">
+      <img src="alolas pp.jpg" alt="Alolas profile picture">
+    </div>
+    <div class="hero-content">
+      <h1 class="alolas">alolas</h1>
+      <p class="producer-bio">
+        <span class="producer-bio-full">Alolas, the hyperpop producer based in Hungary, creates uniquely unconventional beats that transport listeners into another universe where 2+2 is 5. His dynamic soundscapes fuse euphoric, bright melodies, glitch-infused synths, and punchy, hard-hitting basslines to deliver an electrifying and immersive sonic trip unlike any other.</span>
+        <span class="producer-bio-mobile">Hungarian hyperpop producer making bright, glitchy beats with heavy bass.</span>
+      </p>
+    </div>
+  </div>
+</header>
+
+
+
+  <main>
+    <!-- SECTION 1: BEATS -->
+    <section class="section beats-section" id="beats">
+      <div class="section-header">
+        <h2>Latest 10 Beats</h2>
+        <p>Preview drops or search by BPM and Musical Key.</p>
+      </div>
+
+      <!-- Search and Filter Controls -->
+      <div class="filter-bar">
+        <div class="filter-group">
+          <label for="search-input">Search</label>
+          <input type="text" id="search-input" placeholder="Search by title, genre, mood...">
+        </div>
+
+        <div class="filter-group">
+          <label for="bpm-select">BPM</label>
+          <select id="bpm-select">
+            <option value="all">All BPMs</option>
+            <option value="slow">&lt; 120 BPM</option>
+            <option value="mid">120 - 140 BPM</option>
+            <option value="fast">Over 140 BPM</option>
+          </select>
+        </div>
+
+        <div class="filter-group">
+          <label for="key-select">Key</label>
+          <select id="key-select">
+            <option value="all">All Keys</option>
+            <option value="C">C Minor / Major</option>
+            <option value="C#">C# / Db Minor</option>
+            <option value="D">D Minor / Major</option>
+            <option value="D#">D# / Eb Minor</option>
+            <option value="E">E Minor / Major</option>
+            <option value="F">F Minor / Major</option>
+            <option value="F#">F# / Gb Minor</option>
+            <option value="G">G Minor / Major</option>
+            <option value="G#">G# / Ab Minor</option>
+            <option value="A">A Minor / Major</option>
+            <option value="A#">A# / Bb Minor</option>
+            <option value="B">B Minor / Major</option>
+          </select>
+        </div>
+        
+      </div>
+      <!-- Beat Gallery (Left blank for now) -->
+      <div class="beat-grid" id="beat-grid" aria-live="polite"></div>
+      <div class="pagination" id="pagination" aria-label="Beat pages"></div>
+    </section>
+
+    <section class="newsletter-section" aria-labelledby="newsletter-title">
+      <div class="newsletter-card">
+        <h2 id="newsletter-title">Get beats in your inbox</h2>
+        <p>Subscribe for free beats and updates.</p>
+        <form class="newsletter-form" id="newsletter-form">
+          <label class="sr-only" for="newsletter-email">Email address</label>
+          <input
+            type="email"
+            id="newsletter-email"
+            name="email"
+            placeholder="you@email.com"
+            autocomplete="email"
+            maxlength="254"
+            required
+          >
+          <button type="submit" id="newsletter-btn">Join</button>
+        </form>
+        <p class="newsletter-msg" id="newsletter-msg" aria-live="polite"></p>
+      </div>
+    </section>
+
+    <section class="section pricing-section" id="pricing">
+      <div class="section-header">
+        <h2>Licensing &amp; Pricing</h2>
+        <p>All licenses include instant delivery via BeatStars.</p>
+      </div>
+
+      <div class="pricing-grid">
+        
+        <div class="pricing-card">
+          <h3>Standard Lease</h3>
+          <p class="price">$20.00</p>
+        </div>
+
+       
+        <div class="pricing-card featured-tier">
+          <h3>Premium Lease</h3>
+          <p class="price">$30.00</p>
+        </div>
+
+       
+        <div class="pricing-card">
+          <h3>Trackout Lease</h3>
+          <p class="price">$120.00</p>
+        </div>
+
+        
+        <div class="pricing-card">
+          <h3>Exclusive</h3>
+          <p class="price">Make Offer</p>
+          <ul class="license-features">
+            <li>Full Ownership Rights</li>
+            <li>Removed from Market</li>
+            <li>All Files &amp; Stems Included</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="licensing-faq" aria-labelledby="licensing-faq-title">
+        <h3 id="licensing-faq-title">Frequently Asked Questions</h3>
+        <div class="faq-list">
+          <details class="faq-item">
+            <summary>Can I release a song made with your beats on Spotify or other platforms and earn money?</summary>
+            <p>Yes. To release your song commercially and earn money from it, you must purchase a lease. You can buy one on <a href="https://www.beatstars.com/alolas" target="_blank" rel="noopener noreferrer">Alolas's BeatStars profile</a>.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Can I use your beats in an edit or YouTube intro?</summary>
+            <p>Absolutely! Please credit me in the description.</p>
+          </details>
+          <details class="faq-item">
+            <summary>How can I buy a beat without the tag?</summary>
+            <p>Purchase a WAV license on BeatStars to get an untagged version of the beat.</p>
+          </details>
+        </div>
+      </div>
+
+    </section>
+        <!-- SECTION 2: ABOUT -->
+    <section class="section about-section" id="about">
+      <div class="section-header">
+        <h2>Connect with me!</h2>
+      </div>
+      <div class="about-content">
+        <div class="social-links">
+          <a
+            class="social-link instagram-link"
+            href="https://www.instagram.com/prod.alolas/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Visit alolas on Instagram (opens in a new tab)"
+          >
+            <span class="social-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" focusable="false">
+                <rect x="3" y="3" width="18" height="18" rx="5"></rect>
+                <circle cx="12" cy="12" r="4"></circle>
+                <circle class="instagram-flash" cx="18" cy="6" r="1"></circle>
+              </svg>
+            </span>
+            <span class="social-copy">
+              <span class="social-name">Instagram</span>
+              <span class="social-handle">@prod.alolas</span>
+            </span>
+            <span class="social-arrow" aria-hidden="true">↗</span>
+          </a>
+
+          <a
+            class="social-link beatstars-link"
+            href="https://www.beatstars.com/alolas"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Visit alolas on BeatStars (opens in a new tab)"
+          >
+            <span class="social-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" focusable="false">
+                <path d="M12 2.5 14.6 9l6.9.5-5.3 4.4 1.7 6.7-5.9-3.7-5.9 3.7 1.7-6.7-5.3-4.4 6.9-.5L12 2.5Z"></path>
+              </svg>
+            </span>
+            <span class="social-copy">
+              <span class="social-name">BeatStars</span>
+              <span class="social-handle">Listen to my beats</span>
+            </span>
+            <span class="social-arrow" aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <footer class="footer">
+    <p>&copy; 2026 alolas All Rights Reserved.</p>
+  </footer>
+
+  <div class="bottom-player" id="bottom-player">
+    <div class="player-left">
+      <img id="player-cover" src="alobeats.bg.jpeg" alt="Cover">
+      <div class="player-text">
+        <span id="player-title">Bir beat seçin</span>
+        <span class="player-artist">alolas</span>
+      </div>
+      <button id="player-play-btn" class="player-btn" aria-label="Play preview" disabled>▶</button>
+    </div>
+
+    <div class="player-actions">
+      <a
+        class="player-action-link"
+        id="player-buy-link"
+        href="https://www.beatstars.com/alolas"
+        target="_blank"
+        rel="noopener noreferrer"
+      >Buy on BeatStars</a>
+      <button
+        class="player-action-link is-disabled"
+        id="player-download-link"
+        type="button"
+        disabled
+      >Free Download</button>
+      <span class="player-status" id="player-status" aria-live="polite"></span>
+    </div>
+
+    <div class="player-timeline" aria-label="Track playback controls">
+      <button class="player-transport-btn" id="player-previous-btn" type="button" aria-label="Previous beat" disabled>⏮</button>
+      <button class="player-transport-btn" id="player-stop-btn" type="button" aria-label="Stop playback" disabled>■</button>
+      <span class="player-time" id="player-current-time">0:00</span>
+      <label class="sr-only" for="player-seek">Seek through track</label>
+      <input id="player-seek" class="player-seek" type="range" min="0" max="1000" value="0" disabled>
+      <span class="player-time" id="player-duration">0:00</span>
+      <button class="player-transport-btn" id="player-next-btn" type="button" aria-label="Next beat" disabled>⏭</button>
+    </div>
+
+    <audio id="audio-element"></audio>
+  </div>
+
+  <dialog class="download-modal" id="download-modal" aria-labelledby="download-modal-title">
+    <div class="download-modal-card">
+      <button
+        class="download-modal-close"
+        id="download-modal-close"
+        type="button"
+        aria-label="Close download dialog"
+      >×</button>
+      <p class="download-modal-eyebrow">FREE BEAT DOWNLOAD</p>
+      <h2 id="download-modal-title">Enter your email to download this beat for free</h2>
+      <p class="download-modal-track" id="download-modal-track"></p>
+      <form class="download-form" id="download-form">
+        <label class="sr-only" for="download-email">Email address</label>
+        <input
+          type="email"
+          id="download-email"
+          name="email"
+          placeholder="you@email.com"
+          autocomplete="email"
+          maxlength="254"
+          required
+        >
+        <button type="submit" id="download-submit">Download Now</button>
+      </form>
+      <p class="download-modal-message" id="download-modal-message" aria-live="polite"></p>
+    </div>
+  </dialog>
+
+  <script src="script.js?v=7"></script>
+</body>
+</html>
