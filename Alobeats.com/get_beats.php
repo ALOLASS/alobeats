@@ -9,7 +9,7 @@ $beats = [
         "bpm" => "135",
         "key" => "C# Minor",
         "cover" => "cover.gif",
-        "audio" => "Plot_twist_alobeats_alolasxtahtx.mp3"
+        "audio" => "Audio_Beats/Plot_twist_alobeats_alolasxtahtx.mp3"
     ],
     [
         "id" => 2,
@@ -17,7 +17,7 @@ $beats = [
         "bpm" => "151",
         "key" => "B Minor",
         "cover" => "cover.gif",
-        "audio" => "mermaid_alobeats_alolasxchrismarek.mp3"
+        "audio" => "Audio_Beats/mermaid_alobeats_alolasxchrismarek.mp3"
     ],
     [
         "id" => 3,
@@ -25,7 +25,7 @@ $beats = [
         "bpm" => "184",
         "key" => "C Minor",
         "cover" => "cover.gif",
-        "audio" => "suffer_alobeats_alolasxjkei.mp3"
+        "audio" => "Audio_Beats/suffer_alobeats_alolasxjkei.mp3"
     ],
     [
         "id" => 4,
@@ -33,7 +33,7 @@ $beats = [
         "bpm" => "164",
         "key" => "Dbm",
         "cover" => "cover.gif",
-        "audio" => "flowers_alobeats_alolasxjkei.mp3"
+        "audio" => "Audio_Beats/flowers_alobeats_alolasxjkei.mp3"
     ],
     [
         "id" => 5,
@@ -41,7 +41,7 @@ $beats = [
         "bpm" => "140",
         "key" => "F# Minor",
         "cover" => "cover.gif",
-        "audio" => "bloodmoon_alolasxjkei.mp3"
+        "audio" => "Audio_Beats/bloodmoon_alolasxjkei.mp3"
     ],
     [
         "id" => 6,
@@ -49,7 +49,7 @@ $beats = [
         "bpm" => "144",
         "key" => "F# Minor",
         "cover" => "cover.gif",
-        "audio" => "icecupid_alobeats_alolas.mp3"
+        "audio" => "Audio_Beats/icecupid_alobeats_alolas.mp3"
     ],
     [
         "id" => 7,
@@ -57,7 +57,7 @@ $beats = [
         "bpm" => "136",
         "key" => "G# Minor",
         "cover" => "cover.gif",
-        "audio" => "cutedreams_alobeats_alolas.mp3"
+        "audio" => "Audio_Beats/cutedreams_alobeats_alolas.mp3"
     ],
     [
         "id" => 8,
@@ -65,7 +65,7 @@ $beats = [
         "bpm" => "162",
         "key" => "B Minor",
         "cover" => "cover.gif",
-        "audio" => "crisisactor_alobeats_alolasxjkei.mp3"
+        "audio" => "Audio_Beats/crisisactor_alobeats_alolasxjkei.mp3"
     ],
     [
         "id" => 9,
@@ -73,7 +73,7 @@ $beats = [
         "bpm" => "158",
         "key" => "F Minor",
         "cover" => "cover.gif",
-        "audio" => "freak_alobeats_alolasxjkei.mp3"
+        "audio" => "Audio_Beats/freak_alobeats_alolasxjkei.mp3"
     ],
     [
         "id" => 10,
@@ -81,7 +81,7 @@ $beats = [
         "bpm" => "168",
         "key" => "D# Minor",
         "cover" => "cover.gif",
-        "audio" => "chocolatebar_alobeats_alolasxjkei.mp3"
+        "audio" => "Audio_Beats/chocolatebar_alobeats_alolasxjkei.mp3"
     ]
 ];
 
